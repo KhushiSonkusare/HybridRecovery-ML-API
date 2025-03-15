@@ -20,7 +20,7 @@ This Flask-based API predicts the optimal data redundancy mechanism based on sys
 
 ```
 HybridRecovery/
-├── app.py                 # Main Flask app
+├── api.py                 # Main Flask app
 ├── saved_model/           # Trained ML models & scalers
 │   ├── linear_svc_model.joblib
 │   └── scaler.joblib
@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run the API
 ```bash
-python app.py
+python api.py
 ```
 
 API will be available at:
